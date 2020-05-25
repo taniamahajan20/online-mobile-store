@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./index.css";
+import configureStore from "./store/configureStore";
+import ProductList from "./components/ProductList";
+import ProductSpecification from "./components/ProductSpecification";
+import { Provider } from "react-redux";
+import { Route, Switch } from "react-router-dom";
+import NavBar from "./components/Navbar";
+import Login from "./components/Login";
+import Cart from "./components/Cart";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
+import { StateProvider } from "./store/UserStore";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const store = configureStore();
+class App extends Component {
+  render() {
+    library.add(faCartPlus);
+    return (
+      <main>
+        <StateProvider>
+          <Provider store={store}>
+            <NavBar />
+            <Switch>
+              <Route path="/" component={ProductList} exact />
+              <Route path="/login" component={Login} exact />
+              <Route path="/cart" component={Cart} exact />
+              <Route path="/:id" component={ProductSpecification} exact />
+              <Route path="**" component={ProductList} />
+            </Switch>
+          </Provider>
+        </StateProvider>
+      </main>
+    );
+  }
 }
 
 export default App;

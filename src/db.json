@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "name": "Tania Mahajan",
+      "id": 1,
+      "email": "tania123@gmail.com",
+      "password": "Tanu@134",
+      "userName": "TaniaMahajan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy Note 8",
+      "price": "80000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/jc5458w0/mobile/x/d/s/samsung-galaxy-note-8-sm-n950f-original-imafffj7e42ym2zj.jpeg?q=70"
+    },
+    {
+      "id": 2,
+      "name": "iPhone X",
+      "price": "40000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/j9d3bm80/mobile/g/x/j/apple-iphone-x-mqa62hn-a-original-imaeyysgjbe3qzwz.jpeg?q=70"
+    },
+    {
+      "id": 3,
+      "name": "iPhone XR",
+      "price": "50000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/jnj7iq80/mobile/u/b/g/apple-iphone-xr-mryj2hn-a-original-imafa6zkm7qhv2zd.jpeg?q=70"
+    },
+    {
+      "id": 4,
+      "name": "iPhone XS",
+      "price": "90000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/jm9hfgw0/mobile/y/4/u/apple-iphone-xs-mt9l2hn-a-original-imaf97f65bqbdycy.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 11",
+      "price": "70000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k2jbyq80pkrrdj/mobile-refurbished/x/j/s/iphone-11-128-d-mwm02hn-a-apple-0-original-imafkg242ugz8hwc.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "name": "iPhone 11 PRO MAX",
+      "price": "120000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k2jbyq80pkrrdj/mobile-refurbished/k/6/h/iphone-11-pro-max-64-b-mwhf2hn-a-apple-0-original-imafkg2ftqfvr9sf.jpeg?q=70"
+    },
+    {
+      "id": 7,
+      "name": "Redmi Note 8",
+      "price": "10000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k5lcvbk0pkrrdj/mobile-refurbished/y/9/k/redmi-note-8-32-a-redmi-note-8-mi-3-original-imafhgqkgggj8mq4.jpeg?q=70"
+    },
+    {
+      "id": 8,
+      "name": "Samsumg A3",
+      "price": "9000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/mobile/w/k/n/samsung-galaxy-a3-sm-a300hzwdins-sm-a300hzwdinu-original-imae4a477gshuywy.jpeg?q=70"
+    },
+    {
+      "id": 9,
+      "name": "Realme 5",
+      "price": "15000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k65d18w0pkrrdj/mobile/h/r/z/realme-5-rmx1911-original-imafky9rhmwhvmb8.jpeg?q=70"
+    },
+    {
+      "id": 10,
+      "name": "Oppo F5",
+      "price": "20000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/j9d3bm80/mobile/d/z/d/oppo-f5-cph1723-original-imaezfyg3xvgyvku.jpeg?q=70"
+    },
+    {
+      "id": 11,
+      "name": "Nokia 2690",
+      "price": "1500",
+      "image": "https://rukminim1.flixcart.com/image/832/832/mobile-panel/k/s/h/nok2690b-oktata-original-imaedwr3gftbreny.jpeg?q=70"
+    },
+    {
+      "id": 12,
+      "name": "Moto G4 plus",
+      "price": "12000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k2jbyq80pkrrdj/mobile-refurbished/w/8/x/moto-g8-plus-64-d-page0005in-motorola-4-original-imafhgnasvvg88ff.jpeg?q=70"
+    },
+    {
+      "id": 13,
+      "name": "Redmi Note 8 pro",
+      "price": "17000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k87nxjk0/mobile/m/f/k/redmi-note-8-pro-mzb8314in-original-imafqaf3jsf6pt4d.jpeg?q=70"
+    },
+    {
+      "id": 14,
+      "name": "Vivo V17",
+      "price": "24000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/k3xcdjk0pkrrdj/mobile/k/r/w/vivo-v17-vivo-1919-pd1948f-ex-original-imafmth6f4xwxhbc.jpeg?q=70"
+    },
+    {
+      "id": 15,
+      "name": "Asus Max pro M1",
+      "price": "16000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/jk1grrk0/mobile/q/g/r/asus-zenfone-max-pro-m1-zb601kl-4d101in-original-imaf7hajfbvn32y4.jpeg?q=70"
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "products": [],
+      "id": 1
+    }
+  ]
+}

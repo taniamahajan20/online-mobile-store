@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component should render with given state from Redux store 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <img
+        className="image-product"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <h1 />
+      <ul>
+        <li>
+          Wi-Fi or cellular access to the internet
+        </li>
+        <li>
+          A battery that powers the device for several hours
+        </li>
+        <li>
+          A physical or onscreen keyboard for entering information
+        </li>
+        <li>
+          Size and weight that allows it to be carried in one hand and manipulated with the other hand
+        </li>
+        <li>
+          Touch-screen interface in almost all cases
+        </li>
+        <li>
+          A virtual assistant, like Siri, Cortana or Google Assistant
+        </li>
+        <li>
+          The ability to download data from the internet, including apps and books
+        </li>
+        <li>
+          Wireless operation
+        </li>
+      </ul>
+      <p>
+        <h2>
+          $
+        </h2>
+      </p>
+      <p>
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Add to cart
+        </button>
+      </p>
+    </div>
+  </div>
+</div>
+`;
